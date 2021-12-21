@@ -1,0 +1,6 @@
+﻿Name,Quantity,Component
+"FUNC1",1,"50 Hz, 10 V, 0 V, Sine Function Generator"
+"U1",1,"10 ms Oscilloscope"
+"Meter1, Meter2",2,"Voltage Multimeter"
+"D1",1," Diode"
+"R1",1,"10 kΩ Resistor"

@@ -1,0 +1,96 @@
+Write algorithm and draw a flowchart to log in to gmail account
+
+Step 1: Open Browser
+Step 2: Visit https://mail.google.com/mail
+Step 3: Enter your Username, or Mail ID
+Step 4: Enter your password
+Step 5: If Password is correct, Log into Account
+Step 6: If Passowrd is wrong, Either go to Forgot Password or Try again.
+Step 7: Stop or Close Browser. 
+
+
+Write algorithm and draw flowchart to Calculate the volume and area of sphere using the formulas V=4* Pi*r3/3 and A=4*pi*r2 
+where r is radius of square of the sphere.
+
+Step 1: Start
+Step 2: Declare variables area = 0, volume = 0, PI = 3.14, radius = 0 as floating point numbers. 
+Step 3: Print "Enter Radius of the Sphere"
+Step 4: Input the radius of the Sphere
+Step 5: Store the value of radius in the variable radius.
+Step 6: Calculate the Volume and assign it to variable volume with formula V=4* Pi*r3/3
+Step 7: Calculate the Area of the Sphere and assign it to variable area with formula A=4*pi*r2
+Step 8: Print "Volume of Sphere is" volume, and "Area of Sphere is" area. 
+Step 9: Stop.
+
+Pseudo Code:
+
+int main(){
+
+    float volume = 0, area = 0, radius = 0, PI = 3.14
+    print("Enter radius")
+    input(radius)
+    volume = (4/3) * PI * radius * radius
+    area = PI * radius * radius * 4
+    print("Volume is", volume, "Area is", area)
+}
+
+Write algorithm and draw flowchart to calculate roots of a quadratic equation.
+
+Pseudo Code:
+
+int main(){
+    float root_1, root_2, a, b, c, det;
+    print("Enter the values of A, B and C")
+    input(a, b, c)
+    det = sqrt(b*b -(4 * a * c))
+    root_1 = (-b + det)/(2 * a)ḍ
+    root_1 = (-b - det)/(2 * a)ḍ
+    print("The First root is", root_1)
+    print("The Second root is", root_2)
+}
+
+Algorithm:
+Step 1: Start
+Step 2: Declare the Variables root_1, root_2, a, b, c, det = 0 as floats
+Step 3: Print "Enter the values of A B C"
+Step 4: Input the values of A, B, C and assign them to a, b, c
+Step 5: Calculate the Determinant and assign it to det as det = sqrt(b*b -(4 * a * c))
+Step 6: Calculate the first root as: root_1 = (-b + det)/(2 * a)d
+Step 7: Calculate the second root as: root_1 = (-b - det)/(2 * a)ḍ
+Step 8: Print the Values
+
+
+
+
+
+Write the Algorithm and Flowchart to convert a decimal number into Binary. 
+
+Pseudo Code: 
+
+int main()
+{
+    int bin = 0, remainder = 0, dec = 0
+
+    printf("Please Enter the Decimal Number")
+    input(dec)
+    for (int i = 0; dec != 0;i++)
+    {
+        remainder = dec % 2
+        bin += remainder * pow(10, i)
+        dec /= 2
+    }
+    print("The Number in Binary is: %d", bin)
+}
+
+Algorithm:
+Step 1: Start
+Step 2: Declare the Variables bin, remainder, dec = 0 as integers. 
+Step 3: Print "Enter the Decimal Number on the Screen"
+Step 4: Input the value Decimal Number from the user. 
+Step 5: Find the Remainder when Decimal number is divided by 2 and assign it to remainder variable
+Step 6: Multiply Remainder by 10^i(loop variable) and assign it to binary
+Step 7: Divide the Decimal Number by 2 and Assign it to itself
+Step 8: Repeat until value of Decimal number becomes 0
+Step 9: Print the value of the Binary Variable
+Step 10: End
+
