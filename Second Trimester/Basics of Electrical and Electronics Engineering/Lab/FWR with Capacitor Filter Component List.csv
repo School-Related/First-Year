@@ -1,7 +1,0 @@
-﻿Name,Quantity,Component
-"FUNC1, FUNC2",2,"50 Hz, 10 V, 0 V, Sine Function Generator"
-"U1",1,"10 ms Oscilloscope"
-"Meter1",1,"Voltage Multimeter"
-"D1, D3",2," Diode"
-"R1",1,"10 kΩ Resistor"
-"C1",1,"100 uF, 16 V Polarized Capacitor"
