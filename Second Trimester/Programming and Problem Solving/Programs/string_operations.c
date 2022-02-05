@@ -112,7 +112,7 @@ char *str_upper(char *user_string)
     strcpy(upper_string, user_string);
     for (int i = 0; i < str_length(upper_string); i++)
     {
-        if (upper_string[i] >= 'A' && upper_string[i] <= 'Z')
+        if (upper_string[i] >= 'a' && upper_string[i] <= 'z')
         {
             int AASCI_val = upper_string[i] - 32;
             upper_string[i] = AASCI_val;
@@ -194,3 +194,45 @@ int main()
     }
     return 0;
 }
+
+// OUTPUT
+
+// What operation you want to perform [1, 2, 3, 4, 5]: 
+//         1. Find the length of the String
+//         2. Concatenate 2 Strings
+//         3. Compare 2 Strings
+//         4. Convert a String to lowercase
+//         5. Convert a String to Uppercase
+//         6. Reverse a string
+//         1
+// Enter the String that you want to find the length of: example
+// The Length is: 7
+
+// 2
+// Enter the First String: example
+// Enter the First String: String
+// The Concatenated is: exampleString
+
+// 3
+// Enter the First String: First
+// Enter the First String: Second
+// The Comparison of the Strings is: -1
+
+// 3
+// Enter the First String: First
+// Enter the First String: First
+// The Comparison of the Strings is: 0
+
+// 4
+// Enter the String that you want to convert to lowercase to: LOWERcase
+// The converted String is: lowercase
+
+// 5
+// Enter the String that you want to convert to Uppercase to: upperCASE
+// The converted String is: UPPERCASE
+
+// 6
+// Enter the String that you want to reverse: reverse
+// The converted String is: esrever
+
+

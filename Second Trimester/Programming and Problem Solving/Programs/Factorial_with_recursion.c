@@ -18,3 +18,5 @@ int main()
     printf("The factorial of the number is: %.1lf", factorial(a));
     return 0;
 }
+// Enter the number whose factorial you want: 5
+// The factorial of the number is: 120.0
