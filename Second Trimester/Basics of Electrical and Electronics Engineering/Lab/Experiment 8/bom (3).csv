@@ -1,6 +1,0 @@
-﻿Name,Quantity,Component
-"FUNC1",1,"1600 Hz, 5 V, 0 V, Sine Function Generator"
-"L1",1,"10 mH Inductor"
-"R1",1,"30 Ω Resistor"
-"C1",1,"1 uF Capacitor"
-"U1",1,"1 ms Oscilloscope"

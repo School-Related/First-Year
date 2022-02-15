@@ -44,6 +44,123 @@ char *str_concat(char *user_string_1, char *user_string_2)
     }
     return concat_string;
 }
+void str_cpy(char *str_to_copy, char *user_string_2)
+{
+    /*
+    Function: Copies string 2 to string 1.
+    Input: char * pointing to the 2 strings.
+    */
+
+    for (int i = 0; i < str_length(user_string_2); i++)
+    {
+        str_to_copy[i] = user_string_2[i];
+    }
+}
+int max_occuring_char(char *user_string)
+{
+    int max_value = 0;
+    int characters[str_length(user_string)];
+    int occured_before = 0;
+    for (int i = 0; i < str_length(user_string); i++)
+    {
+        // Check if the character has occured before so that it doesnt get evaluated twice.
+        for (int k = 0; k < i; k++)
+        {
+            occured_before = 0;
+            if (user_string[k] == user_string[i])
+            {
+                occured_before = 1;
+                break;
+            }
+        }
+
+        // count the number of times each character has occured in the string.
+        characters[i] = 1;
+        for (int j = 0; j < str_length(user_string) && (occured_before == 0); j++)
+        {
+
+            if (j != i)
+            {
+                if (user_string[i] == user_string[j])
+                {
+                    characters[i]++;
+                }
+            }
+        }
+
+        // finding the maximum value
+        for (int l = 0; l < str_length(user_string); l++)
+        {
+            if (characters[i] > max_value)
+            {
+                max_value = characters[i];
+            }
+        }
+    }
+    // Printing the character that has been used the most times.
+    for (int i = 0; i < str_length(user_string); i++)
+    {
+        if (max_value == characters[i])
+        {
+            printf("The Character %c has been used %d times in the string\n", user_string[i], characters[i]);
+        }
+    }
+}
+void remove_duplicates(char *user_string)
+{
+    int new_string_length = str_length(user_string);
+    for (int i = 0; i < str_length(user_string); i++)
+    {
+        for (int j = 0; j < new_string_length; j++)
+        {
+            // Shifting the rest of the string backwards if there is a duplicate
+            if ((user_string[i] == user_string[j]) && (i != j))
+            {
+                for (int k = j; k <= user_string[k] != '\0'; k++)
+                {
+                    user_string[k] = user_string[k + 1];
+                    new_string_length--;
+                }
+            }
+        }
+    }
+    printf("The String without the duplicates is: %s", user_string);
+}
+char *str_reverse(char *user_string)
+{
+    /*
+    Returns a new char * to an array that contains the reversed user_string
+    */
+
+    // allocating on the heap coz otherwise it would be a local variable
+    // that you cant pass outside the scope of this function as a pointer, as memory would be invalid.
+    char *rev_string = malloc(1000);
+    strcpy(rev_string, user_string);
+    for (int i = 0; i < str_length(user_string); i++)
+    {
+        rev_string[i] = user_string[str_length(user_string) - i - 1];
+    }
+    rev_string[str_length(user_string)] = '\0';
+    return rev_string;
+}
+int if_palindrome(char *user_string)
+{
+    int palindrome = 0;
+    for (int i = 0; i < str_length(user_string) / 2; i++)
+    {
+        if (user_string[i] == user_string[str_length(user_string) - 1 - i])
+        {
+            palindrome = 1;
+            continue;
+        }
+        else
+        {
+            palindrome = 0;
+            break;
+        }
+    }
+    return palindrome;
+}
 int str_compare(char *user_string_1, char *user_string_2)
 {
     /*
@@ -63,20 +180,17 @@ int str_compare(char *user_string_1, char *user_string_2)
         {
             if (user_string_1[i + 1] == '\0' && user_string_2[i + 1] != '\0')
             {
-                result = 0;
+                result = -user_string_1[i + 1];
                 continue;
             }
-            else if (user_string_1[i + 1] == '\0' && user_string_2[i + 1] != '\0')
+            else if (user_string_1[i + 1] != '\0' && user_string_2[i + 1] == '\0')
             {
-                result = -1;
+                result = user_string_1[i + 1];
+                continue;
             }
             else if (user_string_1[i + 1] == '\0' && user_string_2[i + 1] == '\0')
             {
                 result = 0;
-            }
-            if (user_string_1[i + 1] != '\0' && user_string_2[i + 1] == '\0')
-            {
-                result = 1;
             }
         }
         else if (user_string_1[i] < user_string_2[i] || user_string_1[i] > user_string_2[i])
@@ -85,6 +199,7 @@ int str_compare(char *user_string_1, char *user_string_2)
             break;
         }
     }
+    return result;
 }
 char *str_lower(char *user_string)
 {
@@ -120,23 +235,6 @@ char *str_upper(char *user_string)
     }
     return upper_string;
 }
-char *str_reverse(char *user_string)
-{
-    /*
-    Returns a new char * to an array that contains the reversed user_string
-    */
-
-    // allocating on the heap coz otherwise it would be a local variable
-    // that you cant pass outside the scope of this function as a pointer, as memory would be invalid.
-    char *rev_string = malloc(1000);
-    strcpy(rev_string, user_string);
-    for (int i = 0; i < str_length(user_string); i++)
-    {
-        rev_string[i] = user_string[str_length(user_string) - i - 1];
-    }
-    rev_string[str_length(user_string)] = '\0';
-    return rev_string;
-}
 
 int main()
 {
@@ -151,6 +249,10 @@ int main()
         4. Convert a String to lowercase\n\
         5. Convert a String to Uppercase\n\
         6. Reverse a string\n\
+        7. Copy a String to Another\n\
+        8. Find the character that has been used the maximum number of times in a string\n\
+        9. Remove Duplicates in a String\n\
+        10. Check if a Given string is a palidrome \n\
         ");
     scanf("%d", &choice);
     switch (choice)
@@ -189,6 +291,30 @@ int main()
         scanf("%s", &user_string);
         printf("The converted String is: %s", str_reverse(user_string));
         break;
+    case 7:
+        printf(" the String that you want to copy: ");
+        scanf("%s", &user_string_2);
+        str_cpy(user_string_1, user_string_2);
+        printf("The copied strings are: %s and %s", user_string_1, user_string_1);
+        break;
+    case 8:
+        printf("Enter the String: ");
+        scanf("%s", &user_string);
+        max_occuring_char(user_string);
+        break;
+    case 9:
+        printf("Enter the String: ");
+        scanf("%s", &user_string);
+        remove_duplicates(user_string);
+        break;
+    case 10:
+        printf("Enter the String: ");
+        scanf("%s", &user_string);
+        if (if_palindrome(user_string) == 1)
+            printf("The given string is a palindrome");
+        else
+            printf("The given string is not a palindrome");
+        break;
     default:
         printf("Incorrect Choice, Please try again.");
     }
@@ -197,13 +323,14 @@ int main()
 
 // OUTPUT
 
-// What operation you want to perform [1, 2, 3, 4, 5]: 
+// What operation you want to perform [1, 2, 3, 4, 5]:
 //         1. Find the length of the String
 //         2. Concatenate 2 Strings
 //         3. Compare 2 Strings
 //         4. Convert a String to lowercase
 //         5. Convert a String to Uppercase
 //         6. Reverse a string
+//         7. Copy a String to Another
 //         1
 // Enter the String that you want to find the length of: example
 // The Length is: 7
@@ -235,4 +362,6 @@ int main()
 // Enter the String that you want to reverse: reverse
 // The converted String is: esrever
 
-
+// 7
+// the String that you want to copy: hello_world
+// The copied strings are: hello_world and hello_world

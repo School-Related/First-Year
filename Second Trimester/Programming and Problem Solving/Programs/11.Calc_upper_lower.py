@@ -12,8 +12,8 @@ for i in user_string:
     elif i.islower():
         lower_count +=1
         
-print('The numeber of upper case characters in the given string are: ', upper_count)
-print('The numeber of lower case characters in the given string are: ', lower_count)
+print('The number of upper case characters in the given string are: ', upper_count)
+print('The number of lower case characters in the given string are: ', lower_count)
 
 
 # Enter the string you want to calculate upper and lower case characters of:
