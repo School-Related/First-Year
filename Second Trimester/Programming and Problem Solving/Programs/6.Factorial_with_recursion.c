@@ -19,4 +19,4 @@ int main()
     return 0;
 }
 // Enter the number whose factorial you want: 5
-// The factorial of the number is: 120.0
+// The factorial of the number is: 120.0z

@@ -1,0 +1,12 @@
+﻿Name,Quantity,Component
+"U4",1," Arduino Uno R3"
+"U6",1," LCD 16 x 2 "
+"PIEZO2",1," Piezo"
+"D2",1,"Green LED"
+"S2, S3, S4",3," Pushbutton"
+"Rpot3",1,"5 Ω Potentiometer"
+"Rpot4",1,"50 kΩ Potentiometer"
+"R3",1,"220 Ω Resistor"
+"R1",1,"200 Ω Resistor"
+"R4, R2, R5",3,"1 kΩ Resistor"
+"S1",1," Slideswitch"
