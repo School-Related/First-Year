@@ -218,7 +218,7 @@ int tempo[] = {
     12,
 };
 
-// Mario Theme melody
+// Mario Theme 2 melody
 int mario_theme_2_melody[] = {
     NOTE_C4, NOTE_C5, NOTE_A3, NOTE_A4,
     NOTE_AS3, NOTE_AS4, 0,
@@ -240,7 +240,7 @@ int mario_theme_2_melody[] = {
     NOTE_AS3, NOTE_A3, NOTE_GS3,
     0, 0, 0};
 
-// Underwolrd tempo
+// Underworld tempo
 int mario_theme_2_tempo[] = {
     12, 12, 12, 12,
     12, 12, 6,
@@ -366,6 +366,7 @@ void loop()
         end = 1;
     }
 }
+// Control which notes to play
 void sing(int s)
 {
     // iterate over the notes of the melody:
@@ -432,6 +433,7 @@ void sing(int s)
     }
 }
 
+// Play those notes. 
 void buzz(int targetPin, long frequency, long length)
 {
     long delayValue = 1000000 / frequency / 2; // calculate the delay value between transitions
