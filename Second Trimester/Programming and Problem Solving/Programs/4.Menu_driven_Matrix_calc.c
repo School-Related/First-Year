@@ -62,7 +62,7 @@ int main()
 /*
 Algorithm
 Step 1: Start
-Step 2: Declare 3 Matrices of Size [3][3] each and assign them to zero. 
+Step 2: Declare 3 Matrices of Size [3][3] each and assign them to zero.
 Step 3: Input the First Matrix
 Step 4: Input the Second Matrix
 Step 5: Write another nested For loop
