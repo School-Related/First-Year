@@ -1,0 +1,14 @@
+\contentsline {section}{\numberline {1}Brief History}{2}{}%
+\contentsline {subsection}{\numberline {1.1}Berlin 1890}{2}{}%
+\contentsline {subsection}{\numberline {1.2}Einstein 1905}{2}{}%
+\contentsline {subsection}{\numberline {1.3}The World 1922}{3}{}%
+\contentsline {subsection}{\numberline {1.4}The Copenhagen Interpretation}{3}{}%
+\contentsline {subsection}{\numberline {1.5}Spooky Action at a distance}{3}{}%
+\contentsline {subsection}{\numberline {1.6}Development after the World War}{4}{}%
+\contentsline {section}{\numberline {2}Phase Velocity and Group Velocity}{5}{}%
+\contentsline {subsection}{\numberline {2.1}Properties of Matter waves}{5}{}%
+\contentsline {subsection}{\numberline {2.2}Heisenberg's Uncertainity Principle }{5}{}%
+\contentsline {subsubsection}{\numberline {2.2.1}illustration of Uncertainity Principle using electron diffraction pattern from a single slit. }{6}{}%
+\contentsline {section}{\numberline {3}Concept of Wave function and its physical significance}{6}{}%
+\contentsline {subsection}{\numberline {3.1}Schrodinger's Wave Equation}{6}{}%
+\contentsline {subsection}{\numberline {3.2}Applications of Schrodinger's time independent wave equatins}{6}{}%

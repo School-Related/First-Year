@@ -1,0 +1,607 @@
+% This is a basic Math Paper
+
+\documentclass[12pt]{article}
+
+% Preamble
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsfonts, amsmath, amssymb}
+\usepackage{fancyhdr, float, graphicx}
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage{fouriernc} % Use the New Century Schoolbook font
+\usepackage[nottoc, notlot, notlof]{tocbibind}
+\usepackage{url}
+
+% Header and Footer
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\fancyhead[L]{\textit{\Large{Physics Formulas and Definitions}}}
+%\fancyhead[R]{\textit{something}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\footrulewidth}{1pt}
+
+
+
+% Other Doc Editing
+% \parindent 0ex
+%\renewcommand{\baselinestretch}{1.5}
+
+\begin{document}
+	
+	\begin{titlepage} 
+		\centering 
+		
+		%---------------------------NAMES-------------------------------
+		
+		\huge\textsc{
+			MIT World Peace University
+		}\\
+	
+		\vspace{0.75\baselineskip} % space after Uni Name
+		
+		\LARGE{
+			Physics\\
+			First Year B. Tech, Trimester 3\\
+			Academic Year 2021-22
+		}
+		
+		\vfill % space after Sub Name
+		
+		%--------------------------TITLE-------------------------------
+		
+		\rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{2pt}
+		\rule{\textwidth}{0.6pt}
+		\vspace{0.75\baselineskip} % Whitespace above the title
+		
+		
+		
+		\huge{\textsc{
+				Physics Formulas and Definitions
+			}} \\
+		
+		
+		
+		\vspace{0.5\baselineskip} % Whitespace below the title
+		\rule{\textwidth}{0.6pt}\vspace*{-\baselineskip}\vspace*{2.8pt}
+		\rule{\textwidth}{1.6pt}
+		
+		\vspace{1\baselineskip} % Whitespace after the title block
+
+		%--------------------------SUBTITLE --------------------------	
+			
+		\LARGE\textsc{
+			Notes
+		} % Subtitle or further description
+		\vfill
+		
+		%--------------------------AUTHOR-------------------------------
+		
+		Prepared By
+		\vspace{0.5\baselineskip} % Whitespace before the editors
+		
+		\Large{
+			109054. Krishnaraj Thadesar\\
+			\vspace{1cm}
+			Division 9 Batch I3
+		}
+		
+		
+		\vspace{0.5\baselineskip} % Whitespace below the editor list
+		\today
+
+	\end{titlepage}
+
+\clearpage
+\tableofcontents
+\clearpage
+
+\section{Basics}
+
+\subsection{Classical Physics}
+\begin{enumerate}
+
+	
+	\item Kinetic Energy is defined as the energy gained by the virtue of motion of the particle: 
+	\begin{eqnarray}
+		K.E = \frac{1}{2}mv^2\\
+		K.E = \frac{p^2}{2m}
+	\end{eqnarray}
+
+	\item Momentum
+	\begin{eqnarray}
+		p = mv\\
+		p = \sqrt{2mK.E}
+	\end{eqnarray}
+	
+	\item Work is on an object when an external force is applied and it moves. 
+	\begin{eqnarray}
+		W = F \cdot s = F\cdot s\cos\theta
+	\end{eqnarray}
+	
+	\item Work Energy Theorem:
+	\begin{eqnarray}
+		W = K.E_f - K.E_i = \Delta K.E
+	\end{eqnarray}
+
+	\item Power
+	\begin{eqnarray}
+		P = \frac{E}{t}\\
+		P = F\cdot v
+	\end{eqnarray}
+
+	\item Potential Energy: Work done to move an object from infinity to a point.
+	\begin{eqnarray}
+		P.E = qW
+	\end{eqnarray}
+
+	\item Electric Potential
+	\begin{equation}
+		V = \frac{W}{q}
+	\end{equation}
+
+	\item Law of Conservation of Energy
+	\begin{eqnarray}
+		K.E + P.E = 0
+	\end{eqnarray}
+
+\end{enumerate}
+
+
+\subsection{Vibrations and Wave Theory}
+\begin{enumerate}
+	
+	\item In any type of wave, matter is never propagated, it is only the momentum and Energy that are propagated, be it longitudinal (Sound, $\parallel$ to direction of Propagation), or Transverse (EM Waves, $\perp$ to Direction of Propagation)
+	
+	
+	\item Wavelength, is the distance travelled by the wave in the time in which the particle of the medium completes 1 Vibration. ($\lambda$)
+	
+	\item Frequency is given as the number of vibrations made by the source particle in 1 Second
+	\begin{equation}
+		\nu = \frac{1}{T}
+	\end{equation}
+	where T is the time Period for 1 Oscillation
+	
+	\item Amplitude (A) is the maximum displacement of the particle from its mean position.
+	
+	\item Phase ($\phi$),  is the Angle swept by the radius vector (in the phasor diagram) since the last vibrating particle crossed its mean position of rest. 
+	
+	\item Basic Relation between Speed, frequency and Wavelength
+	
+	\begin{equation}
+		c = \nu \times \lambda	
+	\end{equation}
+	
+	\item Relation between path difference and phase difference
+	
+	\begin{equation}
+		\phi = \frac{2\pi}{\lambda}\times \Delta
+	\end{equation}
+	
+	\item Wave number is given by: 
+	\begin{equation}
+		\bar{\nu} = \frac{1}{\lambda}
+	\end{equation}
+	
+	
+	\item Wave Equation is given by:
+	
+	\begin{equation}
+		\Psi(x, t) = A \sin(\omega t - kx) = A \sin \frac{2\pi}{\lambda} (vt - x)
+	\end{equation}
+
+	where\\ x = distance travelled by the wave\\
+			v = velocity of the wave\\
+			t = time\\
+			A = Amplitude of the wave\\
+			k = $\frac{2\pi}{\lambda}$\\
+			$\omega = \frac{2\pi}{T}$\\
+			T = Time Period\\
+	
+	Here, $\Psi$ represents the displacement of the particle. It is a function of x and t. 
+		the point being, that to represent an entire wave, all you need to know is where exactly the particle producing the wave is, at any given point of time, so to represent an entire wave, a function describing the displacement of its source particle at a given time, and at a given position is enough, and also the shortest way. 
+	\item Differential Equation of the Wave
+	\begin{equation}
+		\frac{d^2\Psi}{dt^2} = v^2 \frac{d^2\Psi}{dx^2}
+	\end{equation}
+\end{enumerate}
+
+
+\subsection{Optics}
+\begin{enumerate}
+	
+	\item Relation between\underline{ Refractive index of Material and given light wavelength} (simplified, not accurate)
+	\begin{eqnarray}
+		n \propto \frac{1}{\lambda}
+	\end{eqnarray}
+	so Red has a high wavelength (700 nm) and therefore material has a lower value of n for red, voilet has a low wavelength, and therefore material has a higher value of n for violet. This is why Red color disperses the least, naturally, and Violet disperses the most. This is Cauchy's Relation
+	
+	\item \underline{Stokes Law}: States that phase change of \(\pi \) or a path difference of \(\lambda / 2 \) 
+	will take place when a light ray reflects fat the surface of a denser medium. Nothing happens when they reflect off
+	the surface of a rare medium.\\
+	
+	Essentially, \\
+	Rarer: Denser= Light transmitted is same phase, reflected is out of phase\\
+	Denser: Rarer= Light Transmitted is same phase, and reflected is also same phase.
+	
+	\item A \textit{\underline{wavefront}} is defined as the continuous locus of all such particles of the medium which are vibrating in the same phase at any instant. 
+	
+	\item \textit{\underline{Coherent}} sources of light are those that have the same phase difference.
+	
+	\item \underline{Snells Law}
+	\begin{equation}
+		\frac{n_2}{n_1} = \frac{\sin i}{\sin r}
+	\end{equation}
+	
+\end{enumerate}
+
+
+
+\subsection{Interference and Diffraction}
+
+
+\begin{enumerate}
+
+	\item When two light waves of save $\nu$ and having a constant phase difference traverse simultaneously in the same region of a medium and cross each other then there is a modification in the intensity of light in the region of superposition, which is in general different from the sum of the intensities due to individual waves. \textit{This modification in intensity of light resulting from the superposition of two ore more waves of light is called \textbf{interference}.}
+	
+	\item To get interference, you need to either 
+	\begin{enumerate}
+		\item Division of wavefront: where you need a slit or something to divide the incoming wavefront into more waves that then cause interference. \textit{Eg. Lasers, Fresnel Mirrors, Young's Double slit experiment, etc.}
+		\item Division of amplitude: amplitude is divided here by phenomena like partial reflection, refraction, etc. So coherent beams are produced but they all travel different paths, and are brought together. 	\textit{Eg. Thin film interference, Newton's Rings, Michelson's interferometer etc. }
+\end{enumerate}
+	
+
+
+\end{enumerate}
+
+\subsection{Quantum Mechanics and Atomic Structure}
+
+\begin{enumerate}
+	\item Planck's Quantum Theory Stated: 
+	\begin{equation}
+		E = h\nu
+	\end{equation}
+
+	\item PhotoElectric Effect: 
+	\begin{eqnarray}
+		W_0 = h\nu_0 - \frac{1}{2}m v_e^2
+	\end{eqnarray}
+
+	\item De-Broglie's Principle:
+	
+	\begin{eqnarray}
+		\lambda = \frac{h}{mv} \\
+		\lambda_s = \frac{h}{\sqrt{2m_s\times K.E}}\\
+	\end{eqnarray}
+	As Work done on the electron is e $\times$ the Potential Difference applied (V)
+	
+	\begin{eqnarray}
+		\lambda = \frac{h}{\sqrt{2meV}}\\
+		\lambda_e = \frac{12.27}{\sqrt{V}}\AA \\
+		\lambda_p = \frac{0.28}{\sqrt{V}} \AA
+	\end{eqnarray}
+	
+	
+\end{enumerate}
+
+
+\subsection{Constants}
+
+
+\begin{enumerate}
+	\item Mass of Proton = $1.6 \times 10^{-27}$ Kg
+	\item Mass of Neutron = $1.6 \times 10^{-27}$ Kg
+	\item Mass of Electron = $9.1 \times 10^{-31}$ Kg
+	\item Planck's Constant = $6.6 \times 10^{-34}$ Js
+	\item Charge on an Electron  = $-1.6 \times 10^{-19}$ C
+\end{enumerate}
+
+
+
+
+\clearpage
+
+\section{Interference}
+%\begin{enumerate}
+%	
+%	
+%	\item For constructive Interference, just the plain old simple one, the path difference
+%	is an integral multiple of lambda. 
+%	\begin{equation}
+%		\Delta = n \lambda
+%	\end{equation}
+%	
+%	\item For destructive intereference, again the usual one, the path difference is given a
+%	
+%	\begin{equation}
+%		\Delta = (n + \frac{1}{2}) \times \lambda 
+%	\end{equation}
+%	
+%\end{enumerate}
+\subsection{Young's Double Slit Experiment}
+
+	\begin{enumerate}
+		\item \underline{Constructive Interfernce Condition:} 
+		\begin{equation}
+			\Delta = n \lambda
+		\end{equation}
+		
+		\item \underline{Destructive Interference Condition:} 
+
+		\begin{equation}
+			\Delta = (n + \frac{1}{2}) \times \lambda 
+		\end{equation}
+
+
+		\item \underline{Expressions for Path difference}
+		\begin{equation}
+			\Delta = \frac{\lambda}{2\pi} \times \phi = \frac{xd}{D}
+		\end{equation}
+	
+		where, \\
+		x = distance from the center of the screen to the the point in question\\
+		d = distance between the 2 slits\\
+		D = Distance from slits to the Screen
+		
+		\item \underline{Position of Bright Fringes:}
+		\\From the above equations, for constructive interference\textit{ (bright fringes)} you will get: 
+		\begin{equation}
+			x = \frac{nD\lambda}{d}
+		\end{equation}
+		
+		which gives,\\
+		\begin{eqnarray}
+			\textit{For m = 0, } x_0 = 0, \textit{ 	Central Bright Fringe}\\
+			\textit{For m = 1, } x_1 = \frac{(1)D\lambda}{d}, \textit{ First Bright Fringe}\\
+			\textit{\dots and so on}
+		\end{eqnarray}
+	
+	and for Dark Fringes
+	
+	\begin{eqnarray}
+		\textit{For m = 1, } x_0^\prime = \frac{(1)D\lambda}{2d}, \textit{ 	First Dark Fringe}\\
+		\textit{For m = 2, } x_1^\prime = \frac{(3)D\lambda}{2d}, \textit{ Second Dark Fringe}\\
+		\textit{\dots and so on}
+	\end{eqnarray}
+	
+	\item \underline{Fringe Width:}
+	\begin{equation}
+		\beta = \frac{D\lambda}{d}
+	\end{equation}
+
+
+	\item \underline{Angular Fringe Width:}
+	\begin{equation}
+		\theta = \frac{\lambda}{d}
+	\end{equation}
+
+	\end{enumerate}
+
+
+	\subsection{Interference in Thin Film}
+	\begin{enumerate}
+		\item \underline{Reflected System }
+		\begin{enumerate}
+			\item Condition for Maxima
+			\begin{equation}
+				2\mu t \cos(r) = (n + \frac{1}{2}) \lambda
+			\end{equation}
+			
+			\item Condition for Minima
+			\begin{equation}
+				2\mu t \cos(r) = n \lambda
+			\end{equation}
+		\end{enumerate}
+		\item \underline{Transmitted System} 
+		\begin{enumerate}
+			\item Condition for Maxima
+			\begin{equation}
+				2\mu t \cos(r) = n \lambda
+			\end{equation}
+			\item Condition for Minima
+			\begin{equation}
+				2\mu t \cos(r) = (n + \frac{1}{2}) \lambda
+			\end{equation}
+			
+		\end{enumerate}
+	\end{enumerate}
+
+	\subsection{Interference in Wedge Film}
+		\begin{enumerate}
+			\item Condition for Maxima
+			\begin{equation}
+				2\mu t \cos(r + \alpha) = (n + \frac{1}{2}) \lambda
+			\end{equation}
+			
+			\item Condition for Minima
+			\begin{equation}
+				2\mu t \cos(r + \alpha) = n \lambda
+			\end{equation}
+			
+			\item Fringe Width
+			\begin{equation}
+				x_{n+1} - x_n = \beta =  \frac{\lambda}{2 \alpha}
+			\end{equation}
+		\end{enumerate}
+
+	\subsection{Newtons Rings}
+	\begin{enumerate}
+		\item Nth Dark Ring is given by:
+		\begin{equation}
+			D_n^2 = \frac{4Rn \lambda}{\mu}
+		\end{equation}
+		\item Mth Bright Ring is given by:
+		\begin{equation}
+			D_m^2 = \frac{2R \lambda}{\mu} (2m \pm 1)
+		\end{equation}
+
+		\item Radius of Curvature when Diameter of m and nth dark ring is given
+		\begin{equation}
+			R = \frac{\mu(D_m^2 - D_n^2)}{4(m-n)\lambda}
+		\end{equation}
+
+		\item Refractive Index of the lens when air wedge and lens wedge Diameter of rings is given
+		\begin{equation}
+			\mu = \frac{D_{air}^2}{D_{lens}^2}
+		\end{equation}
+
+		\item Thickness of Anti Reflective Coating
+		\begin{equation}
+			t = \frac{\lambda}{4\mu}
+		\end{equation}
+
+	\end{enumerate}
+	
+	\clearpage
+
+\section{Diffraction}
+\begin{equation}
+	\alpha = \frac{\pi a \sin\theta}{\lambda}
+\end{equation}
+\begin{equation}
+	I_\theta = I_m (\frac{\sin\alpha}{\alpha})^2
+\end{equation}
+\subsection{Diffraction through a single slit}
+\begin{enumerate}
+	\item Condition for Central Maxima
+	\begin{equation}
+		I_\theta = I_m
+	\end{equation}
+	\begin{equation}
+		\alpha = 0
+	\end{equation}
+	\begin{equation}
+		\theta = 0
+	\end{equation}
+
+ 	\item Condition for Minima\\
+
+ 	Intensity
+	 \begin{equation}
+		I_\theta = 0
+	\end{equation}
+	\begin{equation}
+		\alpha = m \pi
+	\end{equation}
+	Main Equation
+	\begin{equation}
+		a\sin\theta = n \lambda
+	\end{equation}
+  	\item Condition for Secondary Minima  \\
+  	 	Path Difference is 
+  	\begin{equation}
+  		\Delta = n\lambda
+  	\end{equation}
+  Intensity
+	  \begin{equation}
+		I_\theta = \textit{very small}
+	\end{equation}
+	\begin{equation}
+		\alpha = (n+\frac{1}{2}) \pi
+	\end{equation}
+	\begin{equation}
+		a\sin\theta = (n + \frac{1}{2}) \lambda
+	\end{equation}
+	\item Width of Central or Principle Maxima
+	\begin{equation}
+		W = \frac{2 D \lambda}{a}
+	\end{equation}
+	\item Angular Width of Central Maxima
+	\begin{equation}
+		\theta = \frac{2\lambda}{a}
+	\end{equation}
+\end{enumerate}
+
+\subsection{Diffraction through a Diffraction Grating}
+\begin{equation}
+	d = a + b
+\end{equation}
+\begin{equation}
+	N = \frac{1}{a+ b}
+\end{equation}
+
+\begin{equation}
+	\beta = \frac{\pi d \sin\theta}{\lambda}
+\end{equation}
+
+\begin{enumerate}
+	\item Condition for principle Maxima
+	\begin{equation}
+		I_\theta = N^2 I_m (\frac{\sin\alpha}{\alpha})^2
+	\end{equation}
+	\begin{equation}
+		\beta = n\pi
+	\end{equation}
+	\begin{equation}
+		(a+b)\sin\theta = n\lambda
+	\end{equation}
+
+ 	 \item Condition for Minima
+	  \begin{equation}
+	 	(a+b) \sin\theta = \frac{n}{N}  \lambda
+	 \end{equation}
+	% \begin{equation}
+	% 	\alpha = m \pi
+	% \end{equation}
+	% \begin{equation}
+	% 	a\sin\theta = n \lambda
+	% \end{equation}
+  	\item Highest visible power is (or maximum order)
+	\begin{equation}
+		n_{\max} = \frac{a+ b}{\lambda}
+	\end{equation}
+	\item Absent Spectra
+	\begin{equation}
+		m = \frac{a+b}{a} n
+	\end{equation}
+
+	\item Total number of lines in the grating
+	\begin{equation}
+		\textit{total number of lines} = 2 \times N
+	\end{equation}
+
+	\item Resolving Power
+	\begin{equation}
+		\frac{\lambda}{d\lambda} = n \times N
+	\end{equation}
+\end{enumerate}
+\clearpage
+\section{Polarization}
+\begin{enumerate}
+	\item Law of Malus
+	\begin{equation}
+		I_\theta = I_m \times \cos^2\theta
+	\end{equation}
+
+	\item Brewster's Law: When Unpolarized light falls on a reflective surface, if the Angle of incidence is the angle of polarization ($i_p$) then the reflected light is fully polarized. r is angle of refraction.
+	\begin{eqnarray}
+		i_p + r = 90^\circ\\
+		\mu = \tan i_p = \frac{1}{\sin c}
+	\end{eqnarray}
+\end{enumerate}
+
+
+\section{Quantum Mechanics}
+\begin{enumerate}
+	\item Phase Velocity
+	\begin{eqnarray}
+		v_p = \frac{E}{p} = \frac{c^2}{v} = \frac{\omega}{k}
+	\end{eqnarray}
+	
+	\item Group Velocity of a de Broglie Wave of a particle travels with the same velocity as the particle.
+	
+	\begin{equation}
+		v_g = v_p - \frac{dv_p}{d_\lambda}
+	\end{equation}
+	
+	\item Heisenberg's Uncertainity Principle: 
+	You cannot simultaineously determine the momentum and the position of a microparticle at an instant with exactness. 
+	\begin{equation}
+		\Delta x \cdot \Delta p_x = \frac{h}{2\pi}
+	\end{equation}
+
+	This is important, coz it sets an inherent, built-in, unavoidable, inevitable limit of nature itself to the accuracy with which we can make measurements.
+\end{enumerate}
+
+\end{document}
