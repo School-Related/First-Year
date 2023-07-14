@@ -1,0 +1,16 @@
+\contentsline {section}{\numberline {1}Objective}{1}{section.1}%
+\contentsline {section}{\numberline {2}Theory}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Thermal Power Plant}{1}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Working of a Thermal Power Plant}{1}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Boiler}{2}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Turbines}{2}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Condenser}{3}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Turbines and Their types}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Impulse Turbine used in a Hydro Power plant}{3}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Components of on Impulse Turbine:}{4}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Working Principle of Impulse Turbine:}{5}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2}Reaction Turbines}{7}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Parts of Reaction Turbine}{7}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Types of Reaction Turbine}{8}{subsubsection.3.2.2}%
+\contentsline {section}{\numberline {4}The Difference between a Reaction and an Impulse Turbine}{10}{section.4}%
+\contentsline {section}{\numberline {5}Conclusion}{12}{section.5}%

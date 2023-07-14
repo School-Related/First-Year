@@ -1,0 +1,30 @@
+﻿IMPULSE TURBINE
+
+Impulse turbines are defined as turbines in which high-velocity jets of water or steam collide with the blades of the turbine to rotates the turbine and produce electricity using this winding. The impulse turbine is so named because it acts on the impulse force created for the striking blade of the water jet.
+In impulse turbines, water hits the blade tangentially; hence it is also known as a tangent flow turbine. Impulse turbines are suited for high head and low discharge of water. This means that it is used when the amount of water flow is small, and there is high pressure due to the high location of the water head.
+The impulse turbine changes the velocities of a water jet. The jet is mounted on the winding blade of the turbine, which changes the direction of flow. A change in impulse (impulse) causes a force on the turbine blade. As the turbine is spinning, the force acts through a distance (work), and the oblique water flow is released with less energy.  
+Components of on Impulse Turbine:
+#1. Penstock
+The penstock impulse is a channel or pipe to deliver water to the turbine. Using this penstock, water is brought to the turbine at the high head. This penstock is associated with water reserves. The water reservoir is typically several meters high.
+#2. Nozzle
+The nozzles are used to increase the kinetic energy of the water and to spray water to the blades of the turbine. This nozzle forms a jet with high velocity. This indicates the flow of water towards the blade in a particular direction. In an impulse turbine, single or multiple nozzles may be used.
+#3. Runners
+The runner is a circular disk mounted on a rotating shaft. This rotating shaft is known as a rotor. On the runner, there are also cup-shaped blades that are evenly rounded. The cup-shaped blade, also known as a bucket, is mounted on the runner. These buckets are placed in such a way that these buckets are spread evenly.
+#4. Bucket
+Buckets are cup or spoon-shaped blades of a turbine. The bucket is placed around the circumference of the runner so that the pressurized fluid collides with the bucket; the bucket will gain momentum from the fluid and helps the runner rotate using fluid motion.
+#5. Casing
+In an impulse turbine, the casing is used to prevent water splatter and to direct the spillway so that water does not dissipate. This cover is also used to protect components from the external environment. The cover is usually made of cast iron.
+#6. Braking Jet
+The braking jets are used to stop the turbine blades after the water supply is shut off from the nozzle. Turbine blades continue to rotate even after the water supply from the nozzle is shut down due to inertia. Therefore, the blade is struck from the opposite side of the turbine blade to prevent the blade from rotating immediately.
+Working Principle of Impulse Turbine:
+  
+
+In this turbine, the static pressure inside the runners is constant, and the turbine runner is at atmospheric pressure. The runner rotates in the air, and the blade is sprayed through the nozzle to exchange energy with the turbine. Jet nozzles or a series of nozzles direct high-speed flow to the blades, which are usually in the shape of a bucket or cup. Therefore, only the pressure changes in the nozzle.
+The application of curved blades is to change the velocity of flow. This strike causes a change in speed, and a force is applied to the turbine blades based on the law of energy interaction. According to Newton’s second law of motion, forces obtained through a motion of the fluid depends on two factors: the mass of the fluid entering the turbine and the change in the velocity of the fluid between the turbine inlet and outlet.
+As there is no change in the fluid mass, only the change in velocity is taken into account in the calculation of the force applied to the runner.
+Thus, in the power generation process in impulse turbines, the following steps are applied.
+* The stored water flows upstream from a source through the penstock to reach the nozzle.
+* The potential energy of water inside the nozzle is converted into kinetic energy and injected into the blade or bucket; Thus, the runner rotates.
+* The runner has a mechanism to control the flow of injected water. The spear usually plays an important role in this process.
+* The generator connected to the shaft converts mechanical energy into electrical energy.
+Impulse turbine has the ability to take all kinetic energy from water for high efficiency. After reaching the runner, water is discharged into the atmosphere from the bottom of the turbine housing; therefore, there is no suction at the bottom of the turbine. Here you can see schematically how an impulse turbine works in the process of extracting the kinetic energy of water as well as the power from its components.

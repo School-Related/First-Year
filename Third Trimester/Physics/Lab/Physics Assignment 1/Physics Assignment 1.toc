@@ -1,0 +1,21 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{}%
+\contentsline {section}{\numberline {2}The Human Eye}{2}{}%
+\contentsline {subsection}{\numberline {2.1}Sterioscopic Vision}{2}{}%
+\contentsline {subsection}{\numberline {2.2}How the brain makes 3D}{2}{}%
+\contentsline {section}{\numberline {3}The Beginning of 3D Movies - Separation by Colors}{3}{}%
+\contentsline {subsection}{\numberline {3.1}Working}{3}{}%
+\contentsline {subsection}{\numberline {3.2}3D Images for such glasses}{3}{}%
+\contentsline {subsection}{\numberline {3.3}The Drawback}{3}{}%
+\contentsline {section}{\numberline {4}The Better Method: Using Linear Polarization}{4}{}%
+\contentsline {subsection}{\numberline {4.1}Working}{4}{}%
+\contentsline {subsection}{\numberline {4.2}The Drawback}{4}{}%
+\contentsline {section}{\numberline {5}The Best Method: Using Circularly Polarized Light}{5}{}%
+\contentsline {subsection}{\numberline {5.1}Working}{5}{}%
+\contentsline {section}{\numberline {6}Other Applications}{6}{}%
+\contentsline {section}{\numberline {7}Photo-Elasticity}{6}{}%
+\contentsline {subsection}{\numberline {7.1}Discovery}{6}{}%
+\contentsline {subsection}{\numberline {7.2}Birefringence}{7}{}%
+\contentsline {subsection}{\numberline {7.3}Definition}{7}{}%
+\contentsline {subsection}{\numberline {7.4}Applications}{7}{}%
+\contentsline {section}{\numberline {8}Conclusion}{9}{}%
+\contentsline {section}{References}{10}{}%

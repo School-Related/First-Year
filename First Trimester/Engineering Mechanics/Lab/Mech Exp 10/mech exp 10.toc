@@ -1,0 +1,13 @@
+\contentsline {section}{\numberline {1}Objective}{1}{}%
+\contentsline {section}{\numberline {2}Theory}{1}{}%
+\contentsline {subsection}{\numberline {2.1}Velocity}{1}{}%
+\contentsline {subsection}{\numberline {2.2}Acceleration}{1}{}%
+\contentsline {subsection}{\numberline {2.3}Equations of Motion}{1}{}%
+\contentsline {subsection}{\numberline {2.4}Distance Time Graph}{1}{}%
+\contentsline {subsection}{\numberline {2.5}Velocity Time Graph}{2}{}%
+\contentsline {subsection}{\numberline {2.6}Acceleration Time Graph}{3}{}%
+\contentsline {section}{\numberline {3}Procedure}{3}{}%
+\contentsline {section}{\numberline {4}Analytical Method}{4}{}%
+\contentsline {section}{\numberline {5}Graphical Method}{8}{}%
+\contentsline {section}{\numberline {6}Results}{12}{}%
+\contentsline {section}{\numberline {7}Conclusion}{12}{}%

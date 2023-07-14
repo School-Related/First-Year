@@ -1,0 +1,9 @@
+\contentsline {section}{\numberline {1}Objective}{1}{section.1}%
+\contentsline {section}{\numberline {2}Theory}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Artificial methods of obtaining refrigeration}{1}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Working of the Refrigerator}{1}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Refrigeration Effect and COP}{3}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Theoretical Simple Saturated Vapour Compression Cycle}{3}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Domestic Refrigerator}{4}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Conclusion}{4}{section.3}%
+\contentsline {section}{References}{5}{section*.2}%

@@ -1,0 +1,15 @@
+\contentsline {section}{\numberline {1}Objective}{1}{section.1}%
+\contentsline {section}{\numberline {2}Theory}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Advantages of Conveyor Systems}{1}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Design and Selection of Conveyor Systems}{1}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Industry Application}{2}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Latest Trends in Conveyor Systems}{2}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Robotic Material Handling and Tending}{3}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}The Benefits of Robotic Material Handling and Machine Tending Systems}{3}{subsubsection.2.5.1}%
+\contentsline {section}{\numberline {3}Application of Conveyor Systems in Smartphone Manufacturing Process}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Advantages}{4}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}The Belt Conveyor}{4}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Definition}{4}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Merits and Demerits}{5}{subsubsection.3.2.2}%
+\contentsline {section}{\numberline {4}Conclusion}{5}{section.4}%
+\contentsline {section}{References}{6}{section*.2}%
